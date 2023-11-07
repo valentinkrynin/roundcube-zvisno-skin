@@ -1,0 +1,25 @@
+{
+    "name": "valentinkrynin/roundcube-zvisno-skin",
+    "type": "roundcube-skin",
+    "description": "Roundcube Webmail Custom Skin (Based On Elastic Skin)",
+    "homepage": "https://github.com/valentinkrynin/roundcube-zvisno-skin",
+    "keywords": ["roundcube", "skin", "roundcube-skin"],
+    "license": "GPL-3.0+",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Valentyn Krynin",
+            "email": "valentyn.krynin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "roundcube/plugin-installer": ">=0.3.0"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "1.6.4"
+        }
+    },
+    "minimum-stability": "stable"
+}

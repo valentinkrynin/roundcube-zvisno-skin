@@ -1,0 +1,10 @@
+INSTALLATION
+============
+
+1. To recompile styles/*.css files from styles/*.less files:
+   $ npm install -g lessc
+   $ npm install -g less-plugin-clean-css
+   $ cd skins/roundcube-zvisno-skin
+   $ lessc --clean-css="--s1 --advanced" styles/styles.less > styles/styles.min.css
+   $ lessc --clean-css="--s1 --advanced" styles/print.less > styles/print.min.css
+   $ lessc --clean-css="--s1 --advanced" styles/embed.less > styles/embed.min.css

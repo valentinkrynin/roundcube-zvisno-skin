@@ -7,7 +7,7 @@ echo "
 <html>
 	<head>
 		<title>Oops!</title>
-		<link rel=\"stylesheet\" href=\"skins/roundcube_zvisno_skin/styles/styles.min.css?s={$time}\">
+		<link rel=\"stylesheet\" href=\"/skins/roundcube_zvisno_skin/styles/styles.min.css\">
 		<style>
 			:root {
 				--main-color: #c11d20;

@@ -6,7 +6,9 @@ $time = time();
 echo "
 <html>
 	<head>
+		<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">
 		<title>Oops!</title>
+		<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0\">
 		<link rel=\"stylesheet\" href=\"/skins/roundcube_zvisno_skin/styles/styles.min.css\">
 		<style>
 			:root {
